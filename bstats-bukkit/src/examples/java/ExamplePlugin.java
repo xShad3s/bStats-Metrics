@@ -13,5 +13,7 @@ public class ExamplePlugin extends JavaPlugin {
         // Optional: Add custom charts
         metrics.addCustomChart(new Metrics.SimplePie("chart_id", () -> "My value"));
     }
-
+    
+    public void onDisable() {
+    }
 }
